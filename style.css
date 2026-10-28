@@ -24,22 +24,19 @@ h1 {
     gap: 30px;
     margin-top: 20px;
     border: 1px solid #060606;
-    width: 400px;
-    height: 400px;
+    width: 70%;
+    height: 70%;
 }
 
-.edit {
-    font-size: 50px;
-}
+media screen and (max-width: 768px) {
+    .calculator {
+        width: 90%;
+        height: auto;
+    }
 
-.container1 {
-    border: 1px solid #060606;
-    height: 100px;
-    width: 400px;
-}
-
-.container2 {
-    border: 1px solid #060606;
-    height: 100px;
-    width: 400px;
+    .buttons {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 100%;
+    }
 }

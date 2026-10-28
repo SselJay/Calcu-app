@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    color: #333;   
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border: 10px solid #060606;
+    border-radius: 30px;
+    width: 50%;
+    height: 500px;
+    
+}
+
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+    border: 1px solid #060606;
+    width: 400px;
+    height: 400px;
+}
+
+.edit {
+    font-size: 50px;
+}
+
+.container1 {
+    border: 1px solid #060606;
+    height: 100px;
+    width: 400px;
+}
+
+.container2 {
+    border: 1px solid #060606;
+    height: 100px;
+    width: 400px;
+}
